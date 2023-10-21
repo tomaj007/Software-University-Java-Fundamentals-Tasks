@@ -25,12 +25,12 @@ public class GuineaPig {
                 cover -= coverToGive;
                 counter2 = 0;
             }
-            if (food == 0 || hay == 0 || cover == 0) {
+            if (food <= 0 || hay <= 0 || cover <= 0) {
                 System.out.println("Merry must go to the pet store!");
                 break;
             }
         }
-        if (food == 0 || hay == 0 || cover == 0) {
+        if (food <= 0 || hay <= 0 || cover <= 0) {
 
         } else
             System.out.printf("Everything is fine! Puppy is happy! Food: %.2f, Hay: %.2f, Cover: %.2f.", food, hay, cover);
