@@ -18,7 +18,7 @@ public class GuineaPig {
             if (counter == 2) {
                 double hayToGive = food * 0.05;
                 hay -= hayToGive;
-                counter=0;
+                counter = 0;
             }
             if (counter2 == 3) {
                 double coverToGive = weight / 3;
@@ -32,11 +32,10 @@ public class GuineaPig {
         }
         if (food == 0 || hay == 0 || cover == 0) {
 
-        }else
-        System.out.printf("Everything is fine! Puppy is happy! Food: %.2f, Hay: %.2f, Cover: %.2f.", food, hay, cover);
+        } else
+            System.out.printf("Everything is fine! Puppy is happy! Food: %.2f, Hay: %.2f, Cover: %.2f.", food, hay, cover);
 
     }
-
 
 }
 
